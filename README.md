@@ -39,42 +39,42 @@
       "Damage_Multiplier": 0.75,
       "Armor_Multiplier": 1.25,
       "Beacon_Experience_Multiplier": 1.0,
-      "Full_Moon_Experience_Multiplier": 1.25,
-      "Slow_Movement": false,
-      "Can_Stun": false
+      "Full_Moon_Experience_Multiplier": 2.0,
+      "Slow_Movement": true,
+      "Can_Stun": true
     },
     "Animals": {
       "Respawn_Time": 180.0,
-      "Damage_Multiplier": 1.0
-      "Armor_Multiplier": 1.0
+      "Damage_Multiplier": 0.75,
+      "Armor_Multiplier": 1.25
     },
     "Barricades": {
-      "Decay_Time": 999999999,
-      "Armor_Multiplier": 2.0
+      "Decay_Time": 604800,
+      "Armor_Multiplier": 1.0
     },
     "Structures": {
-      "Decay_Time": 999999999,
-      "Armor_Multiplier": 2.0
+      "Decay_Time": 604800,
+      "Armor_Multiplier": 1.0
     },
     "Players": {
-      "Health_Regen_Min_Food": 80,
-      "Health_Regen_Min_Water": 80,
+      "Health_Regen_Min_Food": 90,
+      "Health_Regen_Min_Water": 90,
       "Health_Regen_Ticks": 60,
-      "Food_Use_Ticks": 1500,
+      "Food_Use_Ticks": 350,
       "Food_Damage_Ticks": 15,
-      "Water_Use_Ticks": 1000,
+      "Water_Use_Ticks": 320,
       "Water_Damage_Ticks": 20,
-      "Virus_Infect": 100,
-      "Virus_Use_Ticks": 45,
+      "Virus_Infect": 50,
+      "Virus_Use_Ticks": 125,
       "Virus_Damage_Ticks": 25,
       "Leg_Regen_Ticks": 750,
       "Bleed_Damage_Ticks": 10,
       "Bleed_Regen_Ticks": 750,
       "Armor_Multiplier": 1.0,
-      "Experience_Multiplier": 1500.0,
+      "Experience_Multiplier": 1.5,
       "Detect_Radius_Multiplier": 0.5,
-      "Lose_Skills_PvP": 0.0,
-      "Lose_Skills_PvE": 0.0,
+      "Lose_Skills_PvP": 0.75,
+      "Lose_Skills_PvE": 0.75,
       "Lose_Items_PvP": 1.0,
       "Lose_Items_PvE": 1.0,
       "Lose_Clothes_PvP": true,
@@ -93,44 +93,44 @@
       "Rubble_Reset_Multiplier": 1.0
     },
     "Events": {
-      "Rain_Frequency_Min": 0.0,
-      "Rain_Frequency_Max": 0.0,
-      "Rain_Duration_Min": 0.0,
-      "Rain_Duration_Max": 0.0,
+      "Rain_Frequency_Min": 2.3,
+      "Rain_Frequency_Max": 5.6,
+      "Rain_Duration_Min": 0.05,
+      "Rain_Duration_Max": 0.15,
       "Airdrop_Frequency_Min": 0.8,
       "Airdrop_Frequency_Max": 6.5
     },
     "Gameplay": {
-      "Repair_Level_Max": 5,
+      "Repair_Level_Max": 3,
       "Hitmarkers": true,
       "Crosshair": true,
       "Ballistics": false,
       "Chart": true,
       "Group_Map": true,
       "Group_HUD": true,
-      "Timer_Exit": 5,
-      "Timer_Respawn": 5,
+      "Timer_Exit": 10,
+      "Timer_Respawn": 10,
       "Timer_Home": 30
     }
   },
   "Normal": {
     "Items": {
       "Spawn_Chance": 0.55,
-      "Despawn_Dropped_Time": 1650.0,
+      "Despawn_Dropped_Time": 600.0,
       "Despawn_Natural_Time": 900.0,
-      "Respawn_Time": 30.0,
-      "Quality_Full_Chance": 0.65,
+      "Respawn_Time": 25.0,
+      "Quality_Full_Chance": 0.6,
       "Quality_Multiplier": 1.0,
-      "Gun_Bullets_Full_Chance": 0.45,
-      "Gun_Bullets_Multiplier": 0.50,
-      "Magazine_Bullets_Full_Chance": 0.35,
+      "Gun_Bullets_Full_Chance": 0.5,
+      "Gun_Bullets_Multiplier": 0.25,
+      "Magazine_Bullets_Full_Chance": 0.45,
       "Magazine_Bullets_Multiplier": 0.5,
       "Crate_Bullets_Full_Chance": 0.35,
       "Crate_Bullets_Multiplier": 1.0,
-      "Has_Durability": false
+      "Has_Durability": true
     },
     "Vehicles": {
-      "Respawn_Time": 300.0,
+      "Respawn_Time": 180.0,
       "Armor_Multiplier": 1.0
     },
     "Zombies": {
@@ -157,32 +157,32 @@
       "Armor_Multiplier": 1.0
     },
     "Barricades": {
-      "Decay_Time": 999999999,
+      "Decay_Time": 604800,
       "Armor_Multiplier": 1.0
     },
     "Structures": {
-      "Decay_Time": 999999999,
+      "Decay_Time": 604800,
       "Armor_Multiplier": 1.0
     },
     "Players": {
-      "Health_Regen_Min_Food": 90,
-      "Health_Regen_Min_Water": 90,
+      "Health_Regen_Min_Food": 80,
+      "Health_Regen_Min_Water": 80,
       "Health_Regen_Ticks": 60,
-      "Food_Use_Ticks": 1650,
+      "Food_Use_Ticks": 3000,
       "Food_Damage_Ticks": 15,
-      "Water_Use_Ticks": 1000,
+      "Water_Use_Ticks": 2700,
       "Water_Damage_Ticks": 20,
-      "Virus_Infect": 150,
-      "Virus_Use_Ticks": 45,
+      "Virus_Infect": 500,
+      "Virus_Use_Ticks": 125,
       "Virus_Damage_Ticks": 25,
       "Leg_Regen_Ticks": 750,
-      "Bleed_Damage_Ticks": 2,
+      "Bleed_Damage_Ticks": 10,
       "Bleed_Regen_Ticks": 750,
       "Armor_Multiplier": 1.0,
-      "Experience_Multiplier": 1.0,
-      "Detect_Radius_Multiplier": 1.0,
-      "Lose_Skills_PvP": 0.0,
-      "Lose_Skills_PvE": 0.0,
+      "Experience_Multiplier": 1000.0,
+      "Detect_Radius_Multiplier": 0.4,
+      "Lose_Skills_PvP": 0.75,
+      "Lose_Skills_PvE": 0.75,
       "Lose_Items_PvP": 1.0,
       "Lose_Items_PvE": 1.0,
       "Lose_Clothes_PvP": true,
@@ -201,11 +201,11 @@
       "Rubble_Reset_Multiplier": 1.0
     },
     "Events": {
-      "Rain_Frequency_Min": 0.0,
-      "Rain_Frequency_Max": 0.0,
-      "Rain_Duration_Min": 0.0,
-      "Rain_Duration_Max": 0.0,
-      "Airdrop_Frequency_Min": 1.8,
+      "Rain_Frequency_Min": 2.3,
+      "Rain_Frequency_Max": 5.6,
+      "Rain_Duration_Min": 0.05,
+      "Rain_Duration_Max": 0.15,
+      "Airdrop_Frequency_Min": 0.8,
       "Airdrop_Frequency_Max": 6.5
     },
     "Gameplay": {
@@ -216,9 +216,9 @@
       "Chart": false,
       "Group_Map": true,
       "Group_HUD": true,
-      "Timer_Exit": 10,
-      "Timer_Respawn": 10,
-      "Timer_Home": 30
+      "Timer_Exit": 5,
+      "Timer_Respawn": 1,
+      "Timer_Home": 5
     }
   },
   "Hard": {
